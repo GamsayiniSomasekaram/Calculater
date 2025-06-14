@@ -3,6 +3,7 @@ import React from 'react'
 function Calculater01() {
   return (
   <>
+  calculator
        <div className='w-full h-screen bg-red-900 flex justify-center items-center'>
         <div className='  bg-[#171314] inset-shadow-sm inset-shadow-zinc-500'>
           <div className='w-full p-2 bg-[#171314] inset-shadow-sm inset-shadow-zinc-500'></div>
