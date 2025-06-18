@@ -34,7 +34,7 @@ const handleDelete = () => {
           
           
           <div className='grid p-4 grid-cols-4 gap-6'>
-            <div onClick={()=>setInput(0)}className='bg-[#171314] p-6 inset-shadow-sm rounded-2xl inset-shadow-zinc-500 hover:inset-shadow-red-500 hover:-translate-1 flex justify-center items-center font-extrabold text-red-50 text-xl'><TbCircleLetterC /></div>
+            <div onClick={()=>setInput()}className='bg-[#171314] p-6 inset-shadow-sm rounded-2xl inset-shadow-zinc-500 hover:inset-shadow-red-500 hover:-translate-1 flex justify-center items-center font-extrabold text-red-50 text-xl'><TbCircleLetterC /></div>
             <div onClick={()=>handleClick('-')} className='bg-[#171314] p-6  inset-shadow-sm  rounded-2xl inset-shadow-zinc-500 hover:inset-shadow-red-500 hover:-translate-1 flex justify-center items-center font-extrabold text-red-50 text-xl'><CgMathMinus /></div>
             <div onClick={()=>handleClick('/')} className='bg-[#171314] p-6  inset-shadow-sm rounded-2xl inset-shadow-zinc-500 hover:inset-shadow-red-500 hover:-translate-1 flex justify-center items-center font-extrabold text-red-50 text-xl'><CgMathDivide /></div>
             <div onClick={handleDelete} className='bg-[#171314] p-6 inset-shadow-sm rounded-2xl inset-shadow-zinc-500 hover:inset-shadow-red-500 hover:-translate-1 flex justify-center items-center font-extrabold text-red-50 text-xl'><FiChevronsLeft /></div>
